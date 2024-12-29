@@ -27,16 +27,15 @@ Processar uma imagem de entrada e gerar a versão transformada com LBP.
 
 ## Estrutura do Repositório
 
-- **`src/`**: Contém os arquivos de código-fonte em C, incluindo:
   - `lbp.c`: Implementação do cálculo de LBP e histograma.
-  - `pgm.c`: Manipulação de arquivos PGM (Portable Grey Map).
-  - `main.c`: Ponto de entrada do programa.
+  - `pgm.c`: Manipulação de arquivos PGM.
+  - `main.c`: Estrutura de funcionamento do código.
 
-- **`data/`**: Contém imagens de teste para validação.
+- **`imagensTeste/`**: Contém imagens de teste para testes( todas em .pgm, recomendado criar outra pasta e retirar uma das imagens para testes)
 
-- **`Makefile`**: Script para compilar o programa.
+- **`Makefile`**: Compilar o programa.
 
-- **`README.md`**: Este arquivo explicativo.
+- **`relátorio.pdf`**: Relátotio em PDF que explica o funcionamento do trabalho em partes.
 
 
 ## Como Compilar
@@ -84,27 +83,17 @@ Imagem mais similar: img_referencia.pgm 0.123456
 ./LBP -i ./data/img_input.pgm -o ./data/img_output.pgm
 ```
 
-
 ## Testes
 
 ### Imagem de Entrada e Resultados
 Incluímos duas imagens de teste, que ilustram a transformação LBP:
 
 #### Imagem Original
-![Imagem Original](./path/to/original_image.png)
+![Imagem Original](./imagensGit/Apuleia1.0.png)
 
 #### Imagem Processada
-![Imagem Processada](./path/to/processed_image.png)
+![Imagem Processada](./imagensGit/pupuleia.png)
 
-
-## Observações
-
-- Este projeto foi desenvolvido para atender os requisitos do trabalho prático da disciplina de Programação II.
-- Caso as bordas da imagem gerem artefatos visuais, considere melhorias no manuseio das bordas no código, como inicialização com valores neutros ou interpolação.
-
-## Autores
-- **Nome do Desenvolvedor**: [Seu Nome Aqui]
-- **Instituição**: Universidade Federal do Paraná
 
 ## Licença
 Este projeto é distribuído sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
