@@ -94,6 +94,3 @@ Incluímos duas imagens de teste, que ilustram a transformação LBP:
 #### Imagem Processada
 ![Imagem Processada](./imagensGit/pupuleia.png)
 
-
-## Licença
-Este projeto é distribuído sob a licença MIT. Consulte o arquivo `LICENSE` para mais informações.
