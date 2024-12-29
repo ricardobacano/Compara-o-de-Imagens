@@ -29,7 +29,7 @@ Processar uma imagem de entrada e gerar a versão transformada com LBP.
 
   - `lbp.c`: Implementação do cálculo de LBP e histograma.
   - `pgm.c`: Manipulação de arquivos PGM.
-  - `main.c`: Estrutura de funcionamento do código.
+  - `main.c`: Estrutura geral do código para funcionamento.
 
 - **`imagensTeste/`**: Contém imagens de teste para testes( todas em .pgm, recomendado criar outra pasta e retirar uma das imagens para testes)
 
@@ -86,7 +86,7 @@ Imagem mais similar: img_referencia.pgm 0.123456
 ## Testes
 
 ### Imagem de Entrada e Resultados
-Incluímos duas imagens de teste, que ilustram a transformação LBP:
+Incluímos duas imagens de teste, que mostram a aplicação do LBP:
 
 #### Imagem Original
 ![Imagem Original](./imagensGit/Apuleia1.0.png)
